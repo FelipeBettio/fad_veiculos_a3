@@ -1,0 +1,72 @@
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+.logo{
+    padding-right: -300px;
+    margin-left: -300px;
+    margin-right: -300px;
+}
+#header {
+    overflow: hidden;
+    background-color: #353535;
+    padding: 20px 10px;
+    position: relative;
+  }
+  
+  #header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  #header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  #header a:hover {
+    background-color: #4b4b4b;
+    color: black;
+  }
+  
+  #header a.active {
+    background-color: #DC3545;
+    color: white;
+  }
+  
+  .header-right {
+    float: right; 
+    
+  }
+  #header a.font{
+    font-size: large;
+    color: white;
+  }
+  
+  @media screen and (max-width: 500px) {
+    #header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+  .footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    background-color: #4b4b4b;
+    color: white;
+    text-align: center;
+ }
